@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+/**
+*
+* -------------------------------------------
+*
+* Template : Great - A Bootstrap Pricing Tables
+* Author : Bhupinder
+* Author Email : bhupinder3kumar@gmail.com
+*
+* ------------------------------------------- 
+*
+*/
+
+/* =================================== */
+/*  Basic Style 
+/* =================================== */
+
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    color: #818181;
+}
+
+figure, p, address {
+    margin: 0;
+}
+
+p {
+    line-height: 24px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+iframe {
+    border: 0;
+}
+
+a {
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a, a:hover, a:focus, .btn:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #252525;
+}
+body .white {
+    color: #f9f9f9;
+}
+main > section {
+    padding: 70px 0;
+}
+.btn {
+    border-radius: 0;
+    border: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.btn-blue {
+    background-color: rgba(0,158,227, 0.78);
+    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
+    padding: 15px 55px;
+    color: #fff;
+}
+
+.btn-border {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 12px 35px;
+}
+
+.bg-blue {
+    background-color: #009EE3;
+}
+
+.sec-color {
+    background-color: #f8f8f8;
+}
+.sec-spacer {
+    padding: 100px 0;
+}
+.spacer1 {
+    height: 10px;
+}
+.spacer2 {
+    height: 20px;
+}
+.spacer3 {
+    height: 30px;
+}
+.spacer4 {
+    height: 40px;
+}
+.title {
+    position: relative;
+    font-size: 50pt;
+    line-height: normal;
+    color: #444;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+}
+.title span {
+    display: block;
+    font-size: 36pt;
+}
+.title .badge {
+    position: absolute;
+    top: -8px;
+    background: #232323;
+    font-size: 11px;
+    padding: 5px 12px;
+}
+.alert-info {
+    color: #999;
+    background-color: #ffffff;
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+
+/* =================================== */
+/*  Header Style 
+/* =================================== */
+
+.header {
+    background: #232323;
+    padding: 10px 0;
+}
+.header .logo {
+    width: 120px;
+    display: inline-block;
+    color: #fcd129;
+    margin-top: 2px;
+}
+.header .header-button {
+   float: right;
+   color: #fff;
+   font-size: 14px;
+}
+.header .header-button a {
+    color: #ffffff;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    font-size: 10px;
+    border-radius: 13px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    margin: 0 8px;
+    padding: 0 15px;
+}
+nav.menu {
+    float: right;
+    padding-right: 20px;
+    margin-top: 2px;
+}
+nav.menu a {
+    color: #bbb;
+    font-size: 14px;
+    display: inline-block;
+    border-right: 1px solid;
+    padding-right: 10px;
+    margin-right: 7px;
+    line-height: 10px;
+}
+nav.menu a:hover {
+    color: #fff;
+}
+nav.menu a:last-child {
+    border-right: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+/*=======================
+    Heading
+========================*/
+.heading h1 {
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.heading h3 {
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+/*=======================
+    Footer
+========================*/
+footer {
+    background-color: #232323;
+}
+footer .container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 30px;
+    position: relative;
+
+}
+footer a {
+    color: #aaa;
+}
+footer a:hover {
+    color: #fff;
+}
+footer .totop {
+    float: right;
+    position: absolute;
+    right: 19px;
+    top: 10px;
+}

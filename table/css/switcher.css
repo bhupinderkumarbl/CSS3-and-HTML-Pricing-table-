@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/**
+*
+* -------------------------------------------
+*
+* Template : Great - A Bootstrap Pricing Tables
+* Author : Bhupinder
+* Author Email : bhupinder3kumar@gmail.com
+*
+* ------------------------------------------- 
+*
+*/
+#closeSwitcher,
+#openSwitcher {
+    position: fixed;
+    top: 200px;
+    left: 0;
+    z-index: 4;
+    padding: 15px;
+    color: #fff;
+    background: #232323;
+    cursor: pointer;
+    border: 1px solid #232323;
+    border-left: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px
+}
+
+#closeSwitcher {
+    color: #fff;
+    background: #232323;
+    border: 1px solid #232323;
+    display: none;
+    left: 200px;
+    box-shadow: 10px 5px 46px 8px rgba(0, 0, 0, .14), 10px 0 26px -6px rgba(0, 0, 0, .2)
+}
+
+#colorSwitcher {
+    top: 200px;
+    left: -202px;
+    width: 200px;
+    min-height: 0;
+    background: #FFF;
+    border-radius: 0;
+    box-shadow: 0 0 23px 1px rgba(0,0,0,0.1);
+    padding: 15px 0px;
+}
+#colorSwitcher, #topNav2 {
+    position: fixed;
+    z-index: 3;
+}
+#colorSwitcherWrapper {
+    width: 180px;
+    margin: 0 auto;
+}
+
+#colorSwitcherWrapper h2 {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000
+}
+
+#colorSwitcherWrapper ul {
+    padding: 1px 0;
+    list-style: none;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+#colorSwitcherWrapper ul li {
+    display: inline-block;
+}
+#colorSwitcherWrapper ul li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 3px 0 #eee;
+    text-indent: 999px;
+    overflow: hidden;
+}
+#colorSwitcherWrapper ul li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 3px 0 #eee;
+    text-indent: 999px;
+    overflow: hidden;
+}
+#colorSwitcherWrapper ul li:nth-child(1) a {
+    background: #fcd129;
+}
+#colorSwitcherWrapper ul li:nth-child(2) a {
+    background: #00bdf2;
+}
+#colorSwitcherWrapper ul li:nth-child(3) a {
+    background: #ee3440;
+}
+#colorSwitcherWrapper ul li:nth-child(4) a {
+    background: #b2d235;
+}
+
+.clear {
+    clear: both
+}
+
+#colorSwitcherWrapper p {
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: center;
+    color: #999;
+    cursor: pointer
+}
+
+@media screen and (max-width:960px) {
+    #closeSwitcher,
+    #colorSwitcher,
+    #openSwitcher {
+        display: none
+    }
+}

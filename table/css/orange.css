@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/**
+*
+* -------------------------------------------
+*
+* Template : Great - A Bootstrap Pricing Tables
+* Author : Bhupinder
+* Author Email : bhupinder3kumar@gmail.com
+*
+* ------------------------------------------- 
+*
+*/
+.pricing-style1 .pricing-plan, 
+.pricing-style2 .pricing-head, 
+.pricing-style3 .pricing-head, 
+.pricing-style2 .pricing-footer .p-button:hover, 
+.pricing-style3 .pricing-footer .p-button:hover {background: #fcd129;}
+.pricing-style1 .pricing-plan:hover .pricing-head span.value, 
+.pricing-style1 .pricing-plan.featured .pricing-head span.value, 
+.pricing-style1 .pricing-body ul li .fa-close, 
+.pricing-style1 .pricing-head .icon.colored, 
+.pricing-style2 .pricing-head .icon.colored, 
+.pricing-style3 .pricing-head .icon.colored {color: #fcd129;}
